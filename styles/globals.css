@@ -427,6 +427,10 @@ button {
     margin-top: 50px;
     padding: 20px;
   }
+
+  .sidebar {
+    width: 200px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -497,5 +501,12 @@ button {
 
   .signin-form input {
     margin-bottom: 20px;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+    box-shadow: none;
   }
 }
