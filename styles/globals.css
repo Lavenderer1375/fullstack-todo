@@ -377,7 +377,7 @@ button {
 .sidebar {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 0; /* Revert to original position */
   width: 250px;
   height: 100%;
   background: white;
@@ -430,6 +430,7 @@ button {
 
   .sidebar {
     width: 200px;
+    left: 0; /* Revert to original position */
   }
 }
 
@@ -508,5 +509,6 @@ button {
     height: auto;
     position: relative;
     box-shadow: none;
+    left: 0; /* Revert to original position */
   }
 }
